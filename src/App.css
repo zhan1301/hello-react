@@ -36,3 +36,25 @@
     transform: rotate(360deg);
   }
 }
+
+
+
+.my-table {
+  border-collapse: collapse;
+  font-family: Arial, sans-serif;
+  width: 90%;
+}
+
+.my-table td, .my-table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.my-table th {
+  background-color: #4CAF50;
+  border: 1px solid #ddd;
+  color: white;
+  padding: 8px;
+  text-align: left;
+}
